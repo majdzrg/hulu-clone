@@ -1,0 +1,26 @@
+.nav {
+    display: flex;
+    color: white;
+    overflow-x: scroll;
+    padding-left: 40px;
+    background-color: black;
+}
+
+/*Hide scrollbar for IE, Edge and Firefox */
+.nav {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+.nav > h3 {
+    cursor: pointer;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-weight: 500;
+    opacity: 0.7;
+    transition: transform 50ms ease-out;
+}
+
+.nav > h3:hover {
+    opacity: 1;
+    transform: scale(1.2);
+}
